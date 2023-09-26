@@ -1,0 +1,72 @@
+// ===================== STYLE FOR ABOUT PAGE================//
+.About-us{
+    background-image: url("/public/images/abt_section_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Varela', sans-serif !important;
+    @include media-min-lg{
+        padding: 1.7rem  12.5rem;
+    }
+    .content2{
+        @include media-min-lg{
+            padding: 7rem 0 6rem 0;
+        }
+    }
+}
+.welcome-salon{
+    background-image: url("/public/images/abt_section_2.png");
+    // background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        .abt-container{
+            position: relative;
+            .image-text{
+                background: $light-white !important;
+                position: absolute;
+                bottom: 1.5rem;
+                left: 8px;
+            }
+        }
+    }
+  .our-story{
+    background-image: url("/public/images/about\ 4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+    .our-text{
+        @include media-min-lg{
+            font-size: 76px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+    
+}
+.icon{
+    width: 80px;
+    @include media-min-lg{
+        width: 120px;
+    }
+   
+}
+.our-con{
+    @include media-min-lg{
+        padding: 1.8rem  12.5rem;
+    }
+}
+
+.our-team{
+   background-color: $light-white !important;
+   font-family: 'Varela', sans-serif !important;
+}
+.aboutus-sec3{
+    @include media-min-lg{
+        font-family: 'Varela', sans-serif !important;
+        background: linear-gradient(
+           to left, rgba(235, 226, 219, 1) 0%, rgba(235, 226, 219, 1) 45%,                                                                 
+           rgba(236, 236, 236, 1) 45%, rgba(236, 236, 236, 1) 100% ) !important;
+    }
+        
+    }

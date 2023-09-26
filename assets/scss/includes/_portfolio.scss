@@ -1,0 +1,27 @@
+// ========================== STYLE FOR PORTFOLIO PAGE ======================//
+.wrapper{
+    font-family: 'Varela', sans-serif !important;
+    .portfolio-sec1{
+        background-image: url("/public/images/Portfolio-sec1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        @include media-min-lg{
+            padding: 1.7rem  12.5rem;
+        }
+    }
+    .content4{
+     @include media-min-lg{
+            padding: 6rem 0 6rem 0;
+        }
+    }
+    .font{
+        font-size: 15px;
+        @include media-min-lg{
+            font-size: 19px;
+        }
+     }
+     .font:hover{
+        background-color: $clr-red1 !important;
+     }
+    }

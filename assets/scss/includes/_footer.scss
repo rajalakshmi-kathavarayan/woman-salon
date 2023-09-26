@@ -1,0 +1,29 @@
+// ======================== STYLE FOR FOOTER SECTION ================//
+.footer-section{
+    background-image: url("/public/images/section-8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:  'Varela', sans-serif !important;
+
+    .zen{
+        font-family: 'Zen Maru Gothic', sans-serif !important; 
+        @include media-min-lg{
+        font-size: 39px;
+        font-weight: 300;
+        }
+        
+     
+    }
+    .ftbr{
+        border-top: 1px solid #B99898 !important;
+        width: 100%;
+    }
+    .fts{
+        @include media-min-lg{
+        font-size: 1.1rem;
+        }
+        
+    }
+}
+

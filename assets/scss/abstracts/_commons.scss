@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+.our-service,.Pricing,.Testimonials,.Salon{
+    @include media-min-lg{
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 88px;
+    }
+   
+
+}
+.para1{
+    text-align: justify;
+    @include media-min-lg{
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 29px;
+       
+    }
+
+}
+.para2{
+    text-align: justify !important;
+    @include media-min-lg{      
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 39px;
+
+
+    }
+}
+.button{
+    background-color: $clr-red !important;
+}
+.abt-head,.team-head{
+    @include media-min-lg{ 
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+}
+.para5{
+    text-align: end;
+    @include media-min-md{
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 39px;
+    }
+}
+.para6{
+    text-align: start;
+    @include media-min-md{
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 39px;
+    }
+    
+  
+}
+.hcontent,.hline{
+    color: $light-grey !important;
+}
+.clr-black{
+    color: #000000;
+}
+.light-grey{
+    color: $abt-clr !important;
+}
+.bg-white1{
+    background: $light-white !important;
+}
+.clr-pink{
+    color: #E78C8C;
+}
+.clr-grey{
+    color: $clr-grey2 !important;
+}
+
+
+
+

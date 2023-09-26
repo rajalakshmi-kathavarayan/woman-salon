@@ -1,0 +1,67 @@
+.wrapper{
+    font-family: 'Varela', sans-serif !important;
+    .contact-sec1{
+        background-image: url("/public/images/contact-sec1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        @include media-min-lg{
+            padding: 1.7rem  12.5rem;
+        }
+    }
+    .content4{
+     @include media-min-lg{
+            padding: 6rem 0 6rem 0;
+        }
+    }
+    .contact-head{
+        font-size: 27px;
+        @include media-min-lg{
+            font-size: 47px;
+            font-weight: 400;
+            line-height: 40px;
+        }
+    }
+    .ctext{
+        @include media-min-lg{
+            font-size: 19px;
+         }
+    }
+    .iconbg{
+        background-color: $clr-red !important;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+    }
+    .map{
+        color: rgba(31, 39, 244, 1);
+    }
+    .cbottom{
+        border-bottom: 1px dotted  rgba(69, 67, 67, 1) !important;
+    }
+    }
+    .contact-sec3{
+        background-image: url("/public/images/pricing-sec3.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        .contactus{
+            @include media-min-lg{
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 46px;
+            }
+         }
+         .text-msg{
+            input{
+                padding-bottom: 10rem;
+               
+            }
+        }
+        .linebt{
+            border: 1px solid white;
+        }
+        ::placeholder {
+            color: black;
+    }
+    }

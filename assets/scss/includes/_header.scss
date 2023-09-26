@@ -1,0 +1,65 @@
+// ======================= STYLE FOR HEADER SECTION ===========//
+.wrapper{
+    .Beauty{
+        background-image: url('/public/images/home_section_1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        @include media-min-lg{
+            padding: 1.7rem  12.5rem;
+        }
+     }
+        .logo{
+            width: 110px;
+        }
+    
+    .dropdown-nav {
+        background-color: $nav_bg;
+        padding: 2rem 3rem 2rem 3rem;
+       @include media-min-md{
+        padding: 4rem 7rem 12rem 7rem;
+       }
+        li{
+            a{
+                font-size: 1.2rem;
+                font-family: 'Varela', sans-serif !important;
+                text-align: center;
+                color: white;
+                padding: .9rem;
+            }
+            a:hover{
+                background:rgb(225, 170, 170) !important;
+            }
+        }
+      }
+      .content{
+        @include media-min-lg{
+            padding: 9.8rem 0 6rem 0;
+        }
+    }
+      .head{
+        font-family: 'Cinzel', serif !important;
+        @include media-min-lg{
+            font-weight: 900;
+            font-size: 4.5rem;
+        }
+        @include media-min-xl{
+            font-weight: 900;
+            font-size: 4.5rem;
+    }
+}
+    .subhead{
+        font-family: 'Times New Roman', Times, serif !important;
+        letter-spacing: 0.09em;
+        @include media-min-xl{
+            font-size: 42px;
+            font-weight: 400;
+        }
+
+    }
+.bb{
+        border-bottom: 2px solid white;
+        border-left:  2px solid white;
+    }
+}
+

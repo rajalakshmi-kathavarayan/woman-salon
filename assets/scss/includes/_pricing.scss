@@ -1,0 +1,112 @@
+// ======================= STYLE FOR PRICING PAGE ===================//
+.banner{
+    background-image: url("/public/images/pricing-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Varela', sans-serif !important;
+    .logo{
+        width: 110px;
+    }
+
+.dropdown-nav {
+    background-color: $nav_bg;
+    padding: 2rem 3rem 2rem 3rem;
+   @include media-min-md{
+    padding: 4rem 7rem 12rem 7rem;
+   }
+    li{
+        a{
+            font-size: 1.2rem;
+            font-family: 'Varela', sans-serif !important;
+            text-align: center;
+            color: white;
+            padding: .9rem;
+        }
+        a:hover{
+            background:rgb(225, 170, 170) !important;
+        }
+    }
+  }
+    .pricing-sec1{
+        background-image: url("/public/images/pricing-sec1.jpg") !important;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        @include media-min-lg{
+            padding: 1.7rem  12.5rem;
+        }
+        .head{
+            font-family: 'Cinzel', serif !important;
+            @include media-min-lg{
+                font-weight: 900;
+                font-size: 4.5rem;
+            }
+            @include media-min-xl{
+                font-weight: 900;
+                font-size: 4.5rem;
+        }
+    }
+    .content4{
+     @include media-min-lg{
+            padding: 6rem 0 6rem 0;
+        }
+    }
+}
+    .pricing-plans{
+        background-image: url("/public/images/pricing-sec2.jpg") !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 95%;
+        font-family: 'Varela', sans-serif !important;
+    }
+    .plans{
+        color: #C7C7C7 !important;
+    }
+    .pricing-head{
+        font-size: 27px;
+        @include media-min-lg{
+            font-size: 47px;
+            font-weight: 400;
+            line-height: 40px;
+        }
+    }
+    .hline{
+        border-bottom: 1px dotted #C7C7C7  !important;
+        width: 100%;
+    }
+    .xline{
+        border-bottom: 1px solid $light-grey !important;
+        width: 85%;
+    }
+    .ptext{
+     @include media-min-lg{
+        font-size: 19px;
+     }
+    }
+    .pricing-sec3{
+        background-image: url("/public/images/pricing-sec3.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .price-banner2{
+        background-image: url("/public/images/price\ bg.jpg");
+        .line{
+            border-bottom: 1px dotted #5f5f5f;
+            padding-top: 19px;
+        }
+        
+    }
+    }
+    .pricing-sec4{
+        .price-pack-bg{
+            background-color: #2b2b2b;
+        }
+    }
+     .now{
+        background-color: $clr-red1 !important;
+    }
+   

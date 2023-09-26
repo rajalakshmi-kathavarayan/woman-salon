@@ -1,0 +1,122 @@
+// ======================== STYLE FOR SERVICE SECTION-1=======================//
+.service-section1{
+    background-image: url("/public/images/services\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include media-min-lg{
+        padding: 1.7rem  12.5rem;
+    }
+    .content3{
+         @include media-min-lg{
+            padding: 7rem 0 6rem 0;
+        }
+    }
+}
+// =================== STYLE FOR SERVICE SECTION-2 =========================//
+@include media-min-lg{
+    .service-section2{
+        background: linear-gradient(
+            to left, rgba(37, 37, 37, 1) 0%, rgba(37, 37, 37, 1) 45%,                                                                 
+            rgba(236, 236, 236, 1) 45%, rgba(236, 236, 236, 1) 100% );
+            font-family: 'Varela', sans-serif !important;
+            @include media-min-lg{
+                position: relative;
+            }
+            .our-servicetext{
+                @include media-min-lg{
+                    font-size: 55px;
+                    font-weight: 400;
+                    line-height: 40px;}
+                }
+            }
+        }
+.ser-img1{
+    @include media-min-lg{
+        height: 74.5%;
+        width: 45%;
+        position: absolute;
+        top: 13%;
+        right: 7.3%;
+    }
+}
+.ser-img2{
+    @include media-min-lg{
+        height: 35%;
+        width: 25%;
+        position: absolute;
+        bottom: 15%;
+        right: 30%;
+    }
+}
+// ===================== STYLE FOR SERVICE-3 SECTION ============//
+.service-section3{
+    background-color: $clr-black !important;
+    font-family: 'Varela', sans-serif !important;
+    .section3-head{
+        @include media-min-lg{
+            font-size: 65px;
+            font-weight: 400;
+        }
+    }
+    .line-btm{
+        border-bottom: 1px solid;
+    }
+    span{
+        background-color: $clr-red1 !important;
+        border-radius: 50%;
+        padding: 10px 0 10px 8px;
+    }
+    .rectangle{
+        padding: 0px 40px;
+    }
+    .line{
+        transform: rotate(180deg);
+        writing-mode: vertical-rl;
+        letter-spacing: 1rem;
+    }
+    .content1{
+        @include media-min-lg{
+            padding: 4.8rem 0 6rem 0;  
+        }
+       
+    }
+} 
+// ==================== STYLE FOR SERVICE-4 SECTION============//
+.service-section4{
+    background-image: url("/public/images/service-section4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Varela', sans-serif;
+    .offers{
+        @include media-min-lg{
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 40px;
+        }
+       
+    }
+    .off1{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 49px;
+        text-align: justify;
+    }
+   
+    .off-line{
+        border-bottom: 1px solid;
+    }
+    .st-line{
+        border-left: 2px solid;
+    }
+    span{
+        background-color: $clr-red1 !important;
+        border-radius: 50%;
+        padding: 12px 2px 12px 10px;
+    }
+}
+
+
+
+
+
