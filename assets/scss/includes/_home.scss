@@ -161,7 +161,14 @@
         border-radius: 50%;
     }
     .br-btm{
+        width: 80%;
         border-bottom: 2px dotted #454343;
+        @include media-min-md{
+            width: 40%;
+        }
+        @include media-min-lg{
+            width: 100%;
+        }
     }
     .opt{
         color: #575757 !important;

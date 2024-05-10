@@ -35,15 +35,15 @@
       .content{
         @include media-min-lg{
             padding: 9.8rem 0 6rem 0;
-        }
+        } 
     }
       .head{
         font-family: 'Cinzel', serif !important;
         @include media-min-lg{
-            font-weight: 900;
+            font-weight: 700;
             font-size: 4.5rem;
         }
-        @include media-min-xl{
+        @include media-min-lg-x{
             font-weight: 900;
             font-size: 4.5rem;
     }
