@@ -1,6 +1,6 @@
 // ===================== STYLE FOR ABOUT PAGE================//
 .About-us{
-    background-image: url("/public/images/abt_section_1.jpg");
+    background-image: url("./public/images/abt_section_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@
     }
 }
 .welcome-salon{
-    background-image: url("/public/images/abt_section_2.png");
+    background-image: url("./public/images/abt_section_2.png");
     // background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -31,7 +31,7 @@
         }
     }
   .our-story{
-    background-image: url("/public/images/about\ 4.jpg");
+    background-image: url("./public/images/about\ 4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

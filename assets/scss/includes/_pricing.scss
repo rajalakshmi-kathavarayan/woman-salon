@@ -1,6 +1,6 @@
 // ======================= STYLE FOR PRICING PAGE ===================//
 .banner{
-    background-image: url("/public/images/pricing-bg.jpg");
+    background-image: url("./public/images/pricing-bg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -30,7 +30,7 @@
     }
   }
     .pricing-sec1{
-        background-image: url("/public/images/pricing-sec1.jpg") !important;
+        background-image: url("./public/images/pricing-sec1.jpg") !important;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -55,7 +55,7 @@
     }
 }
     .pricing-plans{
-        background-image: url("/public/images/pricing-sec2.jpg") !important;
+        background-image: url("./public/images/pricing-sec2.jpg") !important;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -87,13 +87,13 @@
      }
     }
     .pricing-sec3{
-        background-image: url("/public/images/pricing-sec3.jpg");
+        background-image: url("./public/images/pricing-sec3.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     .price-banner2{
-        background-image: url("/public/images/price\ bg.jpg");
+        background-image: url("./public/images/price\ bg.jpg");
         .line{
             border-bottom: 1px dotted #5f5f5f;
             padding-top: 19px;

@@ -1,7 +1,7 @@
 .wrapper{
     font-family: 'Varela', sans-serif !important;
     .contact-sec1{
-        background-image: url("/public/images/contact-sec1.jpg");
+        background-image: url("./public/images/contact-sec1.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -41,7 +41,7 @@
     }
     }
     .contact-sec3{
-        background-image: url("/public/images/pricing-sec3.jpg");
+        background-image: url("./public/images/pricing-sec3.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

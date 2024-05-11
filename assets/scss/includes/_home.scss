@@ -46,7 +46,7 @@
 }
 // =================== STYLE FOR SERVICE SECTION ====================//
 .service-section{
-    background-image: url("/public/images/section-3.jpg");
+    background-image: url("./public/images/section-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -58,7 +58,7 @@
 }
 // ================== STYLE FOR PRICING SECTION ====================//
 .pricing-section{
-    background-image: url("/public/images/section\ 4.jpg");
+    background-image: url("./public/images/section\ 4.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@
 }
 // ======================= STYLE FOR TESTIMONIALS SECTION =================//
 .testimonial-section{
-    background-image: url("/public/images/section\ 5.jpg");
+    background-image: url("./public/images/section\ 5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     @include media-min-lg{
@@ -129,7 +129,7 @@
 }
 // ====================== STYLE FOR CONTACTUS SECTION ====================//
 .contact-section{
-    background-image: url(/public/images/section\ 6.jpg);
+    background-image: url(./public/images/section\ 6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
